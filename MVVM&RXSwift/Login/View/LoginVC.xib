@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC" customModule="MVVM_RXSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="codeTextField" destination="hR3-Wy-wa5" id="lQu-EQ-OcP"/>
+                <outlet property="loginButton" destination="csG-Nx-RB3" id="3PQ-EF-dB0"/>
+                <outlet property="phoneTextField" destination="vGq-qS-ekn" id="lWB-0h-nJY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vGq-qS-ekn">
+                    <rect key="frame" x="16" y="76" width="382" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="uV3-ry-Qql"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hR3-Wy-wa5">
+                    <rect key="frame" x="16" y="137" width="382" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="FHB-2e-spV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csG-Nx-RB3">
+                    <rect key="frame" x="185" y="282" width="44" height="34"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Login">
+                        <color key="titleColor" red="0.0" green="0.90196078430000004" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="disabled" title="Login">
+                        <color key="titleColor" red="0.70980393890000004" green="0.14509806040000001" blue="0.098039209840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vGq-qS-ekn" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="AUw-DG-Q8k"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vGq-qS-ekn" secondAttribute="trailing" constant="16" id="FMt-KU-UdA"/>
+                <constraint firstAttribute="trailing" secondItem="hR3-Wy-wa5" secondAttribute="trailing" constant="16" id="I9U-Ii-HTU"/>
+                <constraint firstItem="csG-Nx-RB3" firstAttribute="top" secondItem="hR3-Wy-wa5" secondAttribute="bottom" constant="100" id="N1n-SK-Rks"/>
+                <constraint firstItem="vGq-qS-ekn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="X1P-Vw-gnQ"/>
+                <constraint firstItem="hR3-Wy-wa5" firstAttribute="top" secondItem="vGq-qS-ekn" secondAttribute="bottom" constant="16" id="XZI-Qy-vIO"/>
+                <constraint firstItem="hR3-Wy-wa5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Ydx-A2-aY6"/>
+                <constraint firstItem="csG-Nx-RB3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gvU-Zf-xce"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="102"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
