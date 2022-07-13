@@ -10,6 +10,14 @@
 		0C8545E331F1010F8B315402 /* Pods_MVVM_RXSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835A2A6FDB1CB9E831577427 /* Pods_MVVM_RXSwiftTests.framework */; };
 		C94CE185F8F369D070C1EA1F /* Pods_MVVM_RXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2495CE9C5D894C1CA3E85AEB /* Pods_MVVM_RXSwift.framework */; };
 		DF602737877DD873FC91784D /* Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60F241BD45D2AD120580F84 /* Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework */; };
+		FA5A4D37287EE52F0026B570 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4D36287EE52F0026B570 /* UserViewModel.swift */; };
+		FA5A4D3A287EE5810026B570 /* LoginV2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4D38287EE5810026B570 /* LoginV2VC.swift */; };
+		FA5A4D3B287EE5810026B570 /* LoginV2VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5A4D39287EE5810026B570 /* LoginV2VC.xib */; };
+		FA5A4D3E287EE67F0026B570 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4D3D287EE67F0026B570 /* User.swift */; };
+		FA5A4D40287EF6D60026B570 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4D3F287EF6D60026B570 /* LoginService.swift */; };
+		FA5A4D45287EFF5B0026B570 /* SuucessLoginScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4D43287EFF5B0026B570 /* SuucessLoginScreenVC.swift */; };
+		FA5A4D46287EFF5B0026B570 /* SuucessLoginScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5A4D44287EFF5B0026B570 /* SuucessLoginScreenVC.xib */; };
+		FA5A4D48287F15430026B570 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5A4D47287F15430026B570 /* Box.swift */; };
 		FA5B8C61287E61B000DF6F34 /* PhotosListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C5F287E61B000DF6F34 /* PhotosListVC.swift */; };
 		FA5B8C62287E61B000DF6F34 /* PhotosListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B8C60287E61B000DF6F34 /* PhotosListVC.xib */; };
 		FA5B8C65287E624000DF6F34 /* PhotosListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C64287E624000DF6F34 /* PhotosListViewModel.swift */; };
@@ -74,6 +82,14 @@
 		835A2A6FDB1CB9E831577427 /* Pods_MVVM_RXSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RXSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C2D1431CB7CDBA885B3836 /* Pods-MVVM&RXSwift-MVVM&RXSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM&RXSwift-MVVM&RXSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-MVVM&RXSwift-MVVM&RXSwiftUITests/Pods-MVVM&RXSwift-MVVM&RXSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E60F241BD45D2AD120580F84 /* Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5A4D36287EE52F0026B570 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		FA5A4D38287EE5810026B570 /* LoginV2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginV2VC.swift; sourceTree = "<group>"; };
+		FA5A4D39287EE5810026B570 /* LoginV2VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginV2VC.xib; sourceTree = "<group>"; };
+		FA5A4D3D287EE67F0026B570 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA5A4D3F287EF6D60026B570 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		FA5A4D43287EFF5B0026B570 /* SuucessLoginScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuucessLoginScreenVC.swift; sourceTree = "<group>"; };
+		FA5A4D44287EFF5B0026B570 /* SuucessLoginScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuucessLoginScreenVC.xib; sourceTree = "<group>"; };
+		FA5A4D47287F15430026B570 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 		FA5B8C5F287E61B000DF6F34 /* PhotosListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListVC.swift; sourceTree = "<group>"; };
 		FA5B8C60287E61B000DF6F34 /* PhotosListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosListVC.xib; sourceTree = "<group>"; };
 		FA5B8C64287E624000DF6F34 /* PhotosListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListViewModel.swift; sourceTree = "<group>"; };
@@ -166,6 +182,59 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA5A4D33287EE5060026B570 /* LgoinV2 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A4D3C287EE6750026B570 /* Model */,
+				FA5A4D35287EE5200026B570 /* ViewModel */,
+				FA5A4D34287EE5180026B570 /* View */,
+			);
+			path = LgoinV2;
+			sourceTree = "<group>";
+		};
+		FA5A4D34287EE5180026B570 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A4D38287EE5810026B570 /* LoginV2VC.swift */,
+				FA5A4D39287EE5810026B570 /* LoginV2VC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5A4D35287EE5200026B570 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A4D36287EE52F0026B570 /* UserViewModel.swift */,
+				FA5A4D47287F15430026B570 /* Box.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA5A4D3C287EE6750026B570 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A4D3D287EE67F0026B570 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA5A4D41287EFF3B0026B570 /* SuucessLoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A4D42287EFF470026B570 /* View */,
+			);
+			path = SuucessLoginScreen;
+			sourceTree = "<group>";
+		};
+		FA5A4D42287EFF470026B570 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A4D43287EFF5B0026B570 /* SuucessLoginScreenVC.swift */,
+				FA5A4D44287EFF5B0026B570 /* SuucessLoginScreenVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FA5B8C5B287E574F00DF6F34 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +250,8 @@
 		FA5B8C5C287E575900DF6F34 /* Sences */ = {
 			isa = PBXGroup;
 			children = (
+				FA5A4D41287EFF3B0026B570 /* SuucessLoginScreen */,
+				FA5A4D33287EE5060026B570 /* LgoinV2 */,
 				FA5B8C78287E7BC700DF6F34 /* PhotoDetail */,
 				FA5B8C5D287E616F00DF6F34 /* PhotoListVC */,
 				FAF43EB0287CB7F8002E292B /* HomeVC */,
@@ -339,6 +410,7 @@
 				FA5B8C70287E676300DF6F34 /* APIServiceV2.swift */,
 				FA5B8C72287E68AB00DF6F34 /* content.json */,
 				FA5B8C76287E6A9300DF6F34 /* State.swift */,
+				FA5A4D3F287EF6D60026B570 /* LoginService.swift */,
 			);
 			path = APIService;
 			sourceTree = "<group>";
@@ -508,12 +580,14 @@
 			files = (
 				FAE1B600287C4D7300EC959B /* LaunchScreen.storyboard in Resources */,
 				FAB21A73287DC149006E2F07 /* BranchesCell.xib in Resources */,
+				FA5A4D46287EFF5B0026B570 /* SuucessLoginScreenVC.xib in Resources */,
 				FA5B8C62287E61B000DF6F34 /* PhotosListVC.xib in Resources */,
 				FAE1B5FD287C4D7300EC959B /* Assets.xcassets in Resources */,
 				FA5B8C7C287E7BF100DF6F34 /* PhotoDetailVC.xib in Resources */,
 				FA5B8C6C287E640100DF6F34 /* PhotosCell.xib in Resources */,
 				FAF43EB4287CB809002E292B /* HomeVC.xib in Resources */,
 				FAF43EA4287C6993002E292B /* LoginVC.xib in Resources */,
+				FA5A4D3B287EE5810026B570 /* LoginV2VC.xib in Resources */,
 				FAE1B5FB287C4D7100EC959B /* Main.storyboard in Resources */,
 				FA5B8C73287E68AB00DF6F34 /* content.json in Resources */,
 			);
@@ -644,15 +718,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5B8C6F287E66D800DF6F34 /* Photos.swift in Sources */,
+				FA5A4D48287F15430026B570 /* Box.swift in Sources */,
+				FA5A4D40287EF6D60026B570 /* LoginService.swift in Sources */,
 				FAE1B5F8287C4D7100EC959B /* ViewController.swift in Sources */,
 				FAB21A77287DC274006E2F07 /* BranchesModel.swift in Sources */,
+				FA5A4D3E287EE67F0026B570 /* User.swift in Sources */,
 				FA5B8C65287E624000DF6F34 /* PhotosListViewModel.swift in Sources */,
 				FA5B8C7B287E7BF100DF6F34 /* PhotoDetailVC.swift in Sources */,
 				FAF43EB3287CB809002E292B /* HomeVC.swift in Sources */,
 				FA5B8C77287E6A9300DF6F34 /* State.swift in Sources */,
 				FAB21A7A287DC2FF006E2F07 /* BranchViewModel.swift in Sources */,
+				FA5A4D45287EFF5B0026B570 /* SuucessLoginScreenVC.swift in Sources */,
 				FAF43EAF287CB502002E292B /* UIViewController + Extension.swift in Sources */,
 				FAE1B5F4287C4D7100EC959B /* AppDelegate.swift in Sources */,
+				FA5A4D37287EE52F0026B570 /* UserViewModel.swift in Sources */,
 				FAF43EA7287C6A8F002E292B /* LoginViewModel.swift in Sources */,
 				FA5B8C6B287E640100DF6F34 /* PhotosCell.swift in Sources */,
 				FAF43E9E287C5A0F002E292B /* APIServices.swift in Sources */,
@@ -662,6 +741,7 @@
 				FA5B8C71287E676400DF6F34 /* APIServiceV2.swift in Sources */,
 				FAF43EAC287C79F8002E292B /* BaseErrorModel.swift in Sources */,
 				FAB21A72287DC149006E2F07 /* BranchesCell.swift in Sources */,
+				FA5A4D3A287EE5810026B570 /* LoginV2VC.swift in Sources */,
 				FAE1B5F6287C4D7100EC959B /* SceneDelegate.swift in Sources */,
 				FA5B8C67287E63A200DF6F34 /* PhotosListVC+Delegate.swift in Sources */,
 				FAF43EA3287C6993002E292B /* LoginVC.swift in Sources */,
