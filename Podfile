@@ -9,6 +9,7 @@ target 'MVVM&RXSwift' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'MBProgressHUD'
+  pod 'SDWebImage'
 
   target 'MVVM&RXSwiftTests' do
     inherit! :search_paths

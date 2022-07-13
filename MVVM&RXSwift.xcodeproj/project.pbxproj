@@ -10,6 +10,19 @@
 		0C8545E331F1010F8B315402 /* Pods_MVVM_RXSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835A2A6FDB1CB9E831577427 /* Pods_MVVM_RXSwiftTests.framework */; };
 		C94CE185F8F369D070C1EA1F /* Pods_MVVM_RXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2495CE9C5D894C1CA3E85AEB /* Pods_MVVM_RXSwift.framework */; };
 		DF602737877DD873FC91784D /* Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60F241BD45D2AD120580F84 /* Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework */; };
+		FA5B8C61287E61B000DF6F34 /* PhotosListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C5F287E61B000DF6F34 /* PhotosListVC.swift */; };
+		FA5B8C62287E61B000DF6F34 /* PhotosListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B8C60287E61B000DF6F34 /* PhotosListVC.xib */; };
+		FA5B8C65287E624000DF6F34 /* PhotosListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C64287E624000DF6F34 /* PhotosListViewModel.swift */; };
+		FA5B8C67287E63A200DF6F34 /* PhotosListVC+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C66287E63A200DF6F34 /* PhotosListVC+Delegate.swift */; };
+		FA5B8C6B287E640100DF6F34 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C69287E640100DF6F34 /* PhotosCell.swift */; };
+		FA5B8C6C287E640100DF6F34 /* PhotosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B8C6A287E640100DF6F34 /* PhotosCell.xib */; };
+		FA5B8C6F287E66D800DF6F34 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C6E287E66D800DF6F34 /* Photos.swift */; };
+		FA5B8C71287E676400DF6F34 /* APIServiceV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C70287E676300DF6F34 /* APIServiceV2.swift */; };
+		FA5B8C73287E68AB00DF6F34 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = FA5B8C72287E68AB00DF6F34 /* content.json */; };
+		FA5B8C75287E69D000DF6F34 /* PhotoListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C74287E69D000DF6F34 /* PhotoListCellViewModel.swift */; };
+		FA5B8C77287E6A9300DF6F34 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C76287E6A9300DF6F34 /* State.swift */; };
+		FA5B8C7B287E7BF100DF6F34 /* PhotoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5B8C79287E7BF100DF6F34 /* PhotoDetailVC.swift */; };
+		FA5B8C7C287E7BF100DF6F34 /* PhotoDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5B8C7A287E7BF100DF6F34 /* PhotoDetailVC.xib */; };
 		FAB21A72287DC149006E2F07 /* BranchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB21A70287DC149006E2F07 /* BranchesCell.swift */; };
 		FAB21A73287DC149006E2F07 /* BranchesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB21A71287DC149006E2F07 /* BranchesCell.xib */; };
 		FAB21A77287DC274006E2F07 /* BranchesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB21A76287DC274006E2F07 /* BranchesModel.swift */; };
@@ -61,6 +74,19 @@
 		835A2A6FDB1CB9E831577427 /* Pods_MVVM_RXSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RXSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C2D1431CB7CDBA885B3836 /* Pods-MVVM&RXSwift-MVVM&RXSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM&RXSwift-MVVM&RXSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-MVVM&RXSwift-MVVM&RXSwiftUITests/Pods-MVVM&RXSwift-MVVM&RXSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E60F241BD45D2AD120580F84 /* Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RXSwift_MVVM_RXSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5B8C5F287E61B000DF6F34 /* PhotosListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListVC.swift; sourceTree = "<group>"; };
+		FA5B8C60287E61B000DF6F34 /* PhotosListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosListVC.xib; sourceTree = "<group>"; };
+		FA5B8C64287E624000DF6F34 /* PhotosListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListViewModel.swift; sourceTree = "<group>"; };
+		FA5B8C66287E63A200DF6F34 /* PhotosListVC+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotosListVC+Delegate.swift"; sourceTree = "<group>"; };
+		FA5B8C69287E640100DF6F34 /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		FA5B8C6A287E640100DF6F34 /* PhotosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCell.xib; sourceTree = "<group>"; };
+		FA5B8C6E287E66D800DF6F34 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		FA5B8C70287E676300DF6F34 /* APIServiceV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceV2.swift; sourceTree = "<group>"; };
+		FA5B8C72287E68AB00DF6F34 /* content.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
+		FA5B8C74287E69D000DF6F34 /* PhotoListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCellViewModel.swift; sourceTree = "<group>"; };
+		FA5B8C76287E6A9300DF6F34 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		FA5B8C79287E7BF100DF6F34 /* PhotoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailVC.swift; sourceTree = "<group>"; };
+		FA5B8C7A287E7BF100DF6F34 /* PhotoDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailVC.xib; sourceTree = "<group>"; };
 		FAB21A70287DC149006E2F07 /* BranchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesCell.swift; sourceTree = "<group>"; };
 		FAB21A71287DC149006E2F07 /* BranchesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BranchesCell.xib; sourceTree = "<group>"; };
 		FAB21A76287DC274006E2F07 /* BranchesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchesModel.swift; sourceTree = "<group>"; };
@@ -140,6 +166,85 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA5B8C5B287E574F00DF6F34 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1B5F3287C4D7100EC959B /* AppDelegate.swift */,
+				FAE1B5F5287C4D7100EC959B /* SceneDelegate.swift */,
+				FAE1B5F7287C4D7100EC959B /* ViewController.swift */,
+				FAE1B5F9287C4D7100EC959B /* Main.storyboard */,
+				FAE1B5FE287C4D7300EC959B /* LaunchScreen.storyboard */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FA5B8C5C287E575900DF6F34 /* Sences */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B8C78287E7BC700DF6F34 /* PhotoDetail */,
+				FA5B8C5D287E616F00DF6F34 /* PhotoListVC */,
+				FAF43EB0287CB7F8002E292B /* HomeVC */,
+				FAF43E9F287C696A002E292B /* Login */,
+			);
+			path = Sences;
+			sourceTree = "<group>";
+		};
+		FA5B8C5D287E616F00DF6F34 /* PhotoListVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B8C6D287E66C200DF6F34 /* Model */,
+				FA5B8C63287E621C00DF6F34 /* ViewModel */,
+				FA5B8C5E287E619100DF6F34 /* View */,
+			);
+			path = PhotoListVC;
+			sourceTree = "<group>";
+		};
+		FA5B8C5E287E619100DF6F34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B8C68287E63EA00DF6F34 /* PhotosCell */,
+				FA5B8C5F287E61B000DF6F34 /* PhotosListVC.swift */,
+				FA5B8C60287E61B000DF6F34 /* PhotosListVC.xib */,
+				FA5B8C66287E63A200DF6F34 /* PhotosListVC+Delegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5B8C63287E621C00DF6F34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B8C64287E624000DF6F34 /* PhotosListViewModel.swift */,
+				FA5B8C74287E69D000DF6F34 /* PhotoListCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA5B8C68287E63EA00DF6F34 /* PhotosCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B8C69287E640100DF6F34 /* PhotosCell.swift */,
+				FA5B8C6A287E640100DF6F34 /* PhotosCell.xib */,
+			);
+			path = PhotosCell;
+			sourceTree = "<group>";
+		};
+		FA5B8C6D287E66C200DF6F34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B8C6E287E66D800DF6F34 /* Photos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA5B8C78287E7BC700DF6F34 /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FA5B8C79287E7BF100DF6F34 /* PhotoDetailVC.swift */,
+				FA5B8C7A287E7BF100DF6F34 /* PhotoDetailVC.xib */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
 		FAB21A6F287DC133006E2F07 /* BranchesCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,15 +306,10 @@
 			isa = PBXGroup;
 			children = (
 				FAF43EAD287CB4FA002E292B /* Extension */,
-				FAF43EB0287CB7F8002E292B /* HomeVC */,
-				FAF43E9F287C696A002E292B /* Login */,
 				FAF43E9C287C598D002E292B /* APIService */,
-				FAE1B5F3287C4D7100EC959B /* AppDelegate.swift */,
-				FAE1B5F5287C4D7100EC959B /* SceneDelegate.swift */,
-				FAE1B5F7287C4D7100EC959B /* ViewController.swift */,
-				FAE1B5F9287C4D7100EC959B /* Main.storyboard */,
+				FA5B8C5B287E574F00DF6F34 /* Core */,
+				FA5B8C5C287E575900DF6F34 /* Sences */,
 				FAE1B5FC287C4D7300EC959B /* Assets.xcassets */,
-				FAE1B5FE287C4D7300EC959B /* LaunchScreen.storyboard */,
 				FAE1B601287C4D7300EC959B /* Info.plist */,
 			);
 			path = "MVVM&RXSwift";
@@ -236,6 +336,9 @@
 			isa = PBXGroup;
 			children = (
 				FAF43E9D287C5A0F002E292B /* APIServices.swift */,
+				FA5B8C70287E676300DF6F34 /* APIServiceV2.swift */,
+				FA5B8C72287E68AB00DF6F34 /* content.json */,
+				FA5B8C76287E6A9300DF6F34 /* State.swift */,
 			);
 			path = APIService;
 			sourceTree = "<group>";
@@ -405,10 +508,14 @@
 			files = (
 				FAE1B600287C4D7300EC959B /* LaunchScreen.storyboard in Resources */,
 				FAB21A73287DC149006E2F07 /* BranchesCell.xib in Resources */,
+				FA5B8C62287E61B000DF6F34 /* PhotosListVC.xib in Resources */,
 				FAE1B5FD287C4D7300EC959B /* Assets.xcassets in Resources */,
+				FA5B8C7C287E7BF100DF6F34 /* PhotoDetailVC.xib in Resources */,
+				FA5B8C6C287E640100DF6F34 /* PhotosCell.xib in Resources */,
 				FAF43EB4287CB809002E292B /* HomeVC.xib in Resources */,
 				FAF43EA4287C6993002E292B /* LoginVC.xib in Resources */,
 				FAE1B5FB287C4D7100EC959B /* Main.storyboard in Resources */,
+				FA5B8C73287E68AB00DF6F34 /* content.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,18 +643,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5B8C6F287E66D800DF6F34 /* Photos.swift in Sources */,
 				FAE1B5F8287C4D7100EC959B /* ViewController.swift in Sources */,
 				FAB21A77287DC274006E2F07 /* BranchesModel.swift in Sources */,
+				FA5B8C65287E624000DF6F34 /* PhotosListViewModel.swift in Sources */,
+				FA5B8C7B287E7BF100DF6F34 /* PhotoDetailVC.swift in Sources */,
 				FAF43EB3287CB809002E292B /* HomeVC.swift in Sources */,
+				FA5B8C77287E6A9300DF6F34 /* State.swift in Sources */,
 				FAB21A7A287DC2FF006E2F07 /* BranchViewModel.swift in Sources */,
 				FAF43EAF287CB502002E292B /* UIViewController + Extension.swift in Sources */,
 				FAE1B5F4287C4D7100EC959B /* AppDelegate.swift in Sources */,
 				FAF43EA7287C6A8F002E292B /* LoginViewModel.swift in Sources */,
+				FA5B8C6B287E640100DF6F34 /* PhotosCell.swift in Sources */,
 				FAF43E9E287C5A0F002E292B /* APIServices.swift in Sources */,
 				FAF43EAA287C7961002E292B /* LoginSuccessModel.swift in Sources */,
+				FA5B8C61287E61B000DF6F34 /* PhotosListVC.swift in Sources */,
+				FA5B8C75287E69D000DF6F34 /* PhotoListCellViewModel.swift in Sources */,
+				FA5B8C71287E676400DF6F34 /* APIServiceV2.swift in Sources */,
 				FAF43EAC287C79F8002E292B /* BaseErrorModel.swift in Sources */,
 				FAB21A72287DC149006E2F07 /* BranchesCell.swift in Sources */,
 				FAE1B5F6287C4D7100EC959B /* SceneDelegate.swift in Sources */,
+				FA5B8C67287E63A200DF6F34 /* PhotosListVC+Delegate.swift in Sources */,
 				FAF43EA3287C6993002E292B /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
