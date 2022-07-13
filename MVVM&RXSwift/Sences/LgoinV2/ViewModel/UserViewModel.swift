@@ -16,25 +16,27 @@ class UserViewModel {
   private let minUsernameLength = 4
   private let minPasswordLength = 5
   private let codeRefreshTime = 5.0
-  private var user = UserLogin()
   
-  var username: String {
-    return user.username
+  private var user = UserLogin() {
+    didSet {
+      username.value = user.username
+      
+    }
   }
   
-  var password: String {
-    return user.password
-  }
+  var username: Box<String> = Box("")
+  
+  var password: Box<String> = Box("")
   
   var accessCode: Box<String?> = Box(nil)
   
   var protectedUserName: String {
     let characters = username
     
-    if characters.count >= minUsernameLength {
+    if characters.value.count >= minUsernameLength {
       var displayName = [Character]()
-      for (index, character) in characters.enumerated() {
-        if index > characters.count - minUsernameLength {
+      for (index, character) in characters.value.enumerated() {
+        if index > characters.value.count - minUsernameLength {
           displayName.append(character)
         }else {
           displayName.append("*")
@@ -42,7 +44,7 @@ class UserViewModel {
       }
       return String(displayName)
     }
-    return username
+    return username.value
   }
   
   init(user: UserLogin = UserLogin()) {
